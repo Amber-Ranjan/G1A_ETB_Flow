@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ETB_AccountLinkageFailure_and_G1A_Name_Update</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b35f3881-d6c8-43b8-b6e4-7493a6160d17</testCaseGuid>
+</TestCaseEntity>
