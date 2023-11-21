@@ -17,25 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication('com.maybank2u.life.uat')
-
-Mobile.waitForElementPresent(findTestObject('DoubleTap/android.widget.TextView - DEV OPTIONS'), 0)
-
-Mobile.waitForElementPresent(findTestObject('DoubleTap/android.widget.TextView - com.maybank2u.life.uat'), 0)
-
-Mobile.takeScreenshot()
-
-appVer = Mobile.getText(findTestObject('DoubleTap/android.widget.TextView - UAT Version'), 0)
-
-println('The app Number' + appVer)
-
-Mobile.tap(findTestObject('DoubleTap/Close'), 0)
-
-//Mobile.waitForElementPresent(findTestObject('Dashboard_Login/android.widget.TextView - Login'), 0)
-
-//Mobile.verifyElementExist(findTestObject('Dashboard_Login/android.widget.TextView - Login'), 0)
-
-Mobile.takeScreenshot()
-
-Mobile.comment(appVer)
-
